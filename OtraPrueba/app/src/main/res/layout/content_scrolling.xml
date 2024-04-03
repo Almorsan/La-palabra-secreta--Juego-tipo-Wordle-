@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".Instrucciones"
+    tools:showIn="@layout/instrucciones">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="55dp"
+        android:text="Bievenido al juego de la palabra secreta. Las reglas son simples:
+para ganar, debe adivinar la palabra secreta de cinco letras. Tendrá seis oportunidades.\n\n
+Si la palabra que ha introducido no es correcta pero contiene alguna letra en la misma posición que en la palabra secreta
+, dicha letra se coloreará de color verde. Si, por el contrario, la letra se incluye, pero no en esa posición,
+se coloreará de color amarillo. Si no está incluida, será coloreada de color gris.\n\n
+A medida que vaya acumulando aciertos, su racha se irá actualizando hasta que falle. Consulte su puntuación
+y compárela con la de otros usuarios. ¡Buena suerte!"
+        android:textSize="25sp"/>
+
+
+</androidx.core.widget.NestedScrollView>
